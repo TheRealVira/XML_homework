@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodBadGuys", "GoodBadGuys\GoodBadGuys.csproj", "{35A94B4E-1208-4069-A05C-D80E9C4CBF72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML_GetNodeLib", "XML_GetNodeLib\XML_GetNodeLib.csproj", "{B4F77EAC-0427-4B30-BB55-BD7B9F057D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PflanzenKatalog", "PflanzenKatalog\PflanzenKatalog.csproj", "{2D373885-C9E4-4255-95C3-3A498EAA9200}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{35A94B4E-1208-4069-A05C-D80E9C4CBF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A94B4E-1208-4069-A05C-D80E9C4CBF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A94B4E-1208-4069-A05C-D80E9C4CBF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F77EAC-0427-4B30-BB55-BD7B9F057D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F77EAC-0427-4B30-BB55-BD7B9F057D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F77EAC-0427-4B30-BB55-BD7B9F057D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F77EAC-0427-4B30-BB55-BD7B9F057D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D373885-C9E4-4255-95C3-3A498EAA9200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D373885-C9E4-4255-95C3-3A498EAA9200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D373885-C9E4-4255-95C3-3A498EAA9200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D373885-C9E4-4255-95C3-3A498EAA9200}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

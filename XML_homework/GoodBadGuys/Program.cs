@@ -3,14 +3,28 @@ using System.Xml.Linq;
 
 namespace GoodBadGuys
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static readonly string GoodGuyBadGuy = "GoodGuyBadGuy.xml";
+
+        private static void Main(string[] args)
         {
-            Console.WriteLine(FormatXml(@"GoodGuyBadGuy.xml"));
-            Console.ReadKey();
+            foreach (var node in XDocument.Load(GoodGuyBadGuy).Root.Elements())
+            {
+                node.Name.ToString().ChangeColorDepeningOnGuy();
+                Console.WriteLine(node.Name);
+                foreach (var subnode in node.Elements())
+                {
+                    Console.Write($"\t{subnode.Name}: {subnode.Value} ");
+                    if (subnode.HasAttributes)
+                        Console.Write($"{subnode.Attribute("Port").Name}: \"{subnode.Attribute("Port").Value}\"");
+                    Console.WriteLine();
+                }
+            }
+
+            Console.ReadLine();
         }
 
-        private static string FormatXml(string xmlFile) => XDocument.Parse(xmlFile).ToString();
+        
     }
 }

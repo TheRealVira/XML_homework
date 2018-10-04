@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{35A94B4E-1208-4069-A05C-D80E9C4CBF72}</ProjectGuid>
+    <ProjectGuid>{2D373885-C9E4-4255-95C3-3A498EAA9200}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>GoodBadGuys</RootNamespace>
-    <AssemblyName>GoodBadGuys</AssemblyName>
+    <RootNamespace>PflanzenKatalog</RootNamespace>
+    <AssemblyName>PflanzenKatalog</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleColorHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,7 +56,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="GoodGuyBadGuy.xml">
+    <Content Include="PflanzenKatalog.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
